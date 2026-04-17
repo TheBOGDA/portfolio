@@ -15,7 +15,7 @@ export function SectionHeading({ title, subtitle, className }: SectionHeadingPro
       {subtitle && (
         <p className="mt-3 text-base text-gray-500 dark:text-gray-400 sm:text-lg">{subtitle}</p>
       )}
-      <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-violet-500 to-blue-500" />
+      <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-amber-400 to-orange-400" />
     </div>
   );
 }

@@ -20,8 +20,8 @@ export function About() {
         <AnimatedSection className="mb-16">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-base leading-relaxed text-gray-600 dark:text-gray-300 sm:text-lg">
-              Меня зовут Богдан Горбачёв. Я студент{' '}
-              <span className="font-medium text-violet-600 dark:text-violet-400">
+              Меня зовут Руслан Кочконян. Я студент{' '}
+              <span className="font-medium text-amber-600 dark:text-amber-400">
                 Российского университета дружбы народов
               </span>{' '}
               по специальности «Информационные системы и программирование». Увлекаюсь
@@ -55,7 +55,7 @@ export function About() {
                             key={i}
                             className={`h-1.5 w-1.5 rounded-full ${
                               i < skill.level
-                                ? 'bg-violet-500'
+                                ? 'bg-amber-500'
                                 : 'bg-gray-200 dark:bg-gray-700'
                             }`}
                           />
@@ -80,7 +80,7 @@ export function About() {
                 key={item.id}
                 className="relative flex gap-4 rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-gray-900"
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-violet-100 text-violet-600 dark:bg-violet-500/10 dark:text-violet-400">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-amber-600 dark:bg-amber-500/10 dark:text-amber-400">
                   {item.type === 'education' ? (
                     <GraduationCap size={20} />
                   ) : (
@@ -95,7 +95,7 @@ export function About() {
                       {item.period}
                     </span>
                   </div>
-                  <p className="mt-0.5 text-sm text-violet-600 dark:text-violet-400">
+                  <p className="mt-0.5 text-sm text-amber-600 dark:text-amber-400">
                     {item.organization}
                   </p>
                   <p className="mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">

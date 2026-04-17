@@ -31,9 +31,9 @@ export function Contacts() {
                   target={link.id === 'email' ? undefined : '_blank'}
                   rel="noopener noreferrer"
                   aria-label={link.label}
-                  className="group flex items-center gap-4 rounded-xl border border-gray-800 bg-gray-900 p-4 transition-all duration-200 hover:border-violet-500/40 hover:bg-violet-500/5 hover:shadow-lg hover:shadow-violet-500/10"
+                  className="group flex items-center gap-4 rounded-xl border border-gray-800 bg-gray-900 p-4 transition-all duration-200 hover:border-amber-500/40 hover:bg-amber-500/5 hover:shadow-lg hover:shadow-amber-500/10"
                 >
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-violet-500/10 text-violet-400 transition-colors group-hover:bg-violet-500/20">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/10 text-amber-400 transition-colors group-hover:bg-amber-500/20">
                     <Icon size={20} />
                   </div>
                   <div>

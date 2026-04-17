@@ -4,7 +4,7 @@ export const socialLinks: SocialLink[] = [
   {
     id: 'email',
     label: 'Email',
-    url: 'mailto:gorbachevbogdan@yandex.ru',
+    url: 'mailto:kochkonyan@yandex.ru',
     iconName: 'Mail',
   },
   {
@@ -16,7 +16,7 @@ export const socialLinks: SocialLink[] = [
   {
     id: 'telegram',
     label: 'Telegram',
-    url: 'https://t.me/TheBOGDAN24',
+    url: 'https://t.me/ruslan_kochkonyan',
     iconName: 'Send',
   },
 ];

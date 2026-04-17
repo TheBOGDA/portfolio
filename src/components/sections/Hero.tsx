@@ -16,8 +16,8 @@ export function Hero() {
     >
       {/* Background gradient orbs */}
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute left-1/4 top-1/4 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-600/20 blur-3xl" />
-        <div className="absolute right-1/4 top-2/3 h-64 w-64 rounded-full bg-blue-600/15 blur-3xl" />
+        <div className="absolute left-1/4 top-1/4 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-600/20 blur-3xl" />
+        <div className="absolute right-1/4 top-2/3 h-64 w-64 rounded-full bg-orange-600/15 blur-3xl" />
       </div>
 
       <div className="mx-auto max-w-3xl text-center">
@@ -26,7 +26,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-4 text-base font-medium text-violet-400 sm:text-lg"
+          className="mb-4 text-base font-medium text-amber-400 sm:text-lg"
         >
           Привет, меня зовут
         </motion.p>
@@ -38,9 +38,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-4 text-5xl font-extrabold tracking-tight text-white sm:text-7xl"
         >
-          Богдан
-          <span className="block bg-gradient-to-r from-violet-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
-            Горбачёв
+          Руслан
+          <span className="block bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-400 bg-clip-text text-transparent">
+            Кочконян
           </span>
         </motion.h1>
 

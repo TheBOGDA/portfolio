@@ -1,7 +1,7 @@
 import { NavLink } from '@/types';
 
-export const SITE_NAME = 'Богдан';
-export const SITE_TITLE = 'Богдан Горбачёв — Разработчик';
+export const SITE_NAME = 'Руслан';
+export const SITE_TITLE = 'Руслан Кочконян — Разработчик';
 export const SITE_DESCRIPTION =
   'Студент РУДН по специальности «Информационные системы и программирование». Создаю современные веб-приложения и решаю интересные задачи.';
 

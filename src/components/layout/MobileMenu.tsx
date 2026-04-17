@@ -61,7 +61,7 @@ export function MobileMenu({ isOpen, onClose, links, activeSection }: MobileMenu
                     className={cn(
                       'cursor-pointer rounded-lg px-4 py-3 text-left text-base font-medium transition-colors',
                       isActive
-                        ? 'bg-violet-500/20 text-violet-300'
+                        ? 'bg-amber-500/20 text-amber-300'
                         : 'text-gray-300 hover:bg-white/10 hover:text-white'
                     )}
                   >

@@ -17,10 +17,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const status = statusLabel[project.status];
 
   return (
-    <article className="group flex flex-col rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-violet-300 hover:shadow-xl hover:shadow-violet-500/10 dark:border-gray-800 dark:bg-gray-900 dark:hover:border-violet-500/30">
+    <article className="group flex flex-col rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-amber-300 hover:shadow-xl hover:shadow-amber-500/10 dark:border-gray-800 dark:bg-gray-900 dark:hover:border-amber-500/30">
       {/* Header */}
       <div className="mb-3 flex items-start justify-between gap-2">
-        <h3 className="text-lg font-semibold text-gray-900 transition-colors group-hover:text-violet-600 dark:text-gray-100 dark:group-hover:text-white">
+        <h3 className="text-lg font-semibold text-gray-900 transition-colors group-hover:text-amber-600 dark:text-gray-100 dark:group-hover:text-white">
           {project.title}
         </h3>
         <span className={cn('shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium', status.class)}>
@@ -60,7 +60,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`Демо ${project.title}`}
-            className="flex items-center gap-1.5 text-sm text-violet-600 transition-colors hover:text-violet-700 dark:text-violet-400 dark:hover:text-violet-300"
+            className="flex items-center gap-1.5 text-sm text-amber-600 transition-colors hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300"
           >
             <ExternalLink size={15} />
             <span>Демо</span>

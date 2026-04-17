@@ -40,10 +40,10 @@ export function Header() {
           {/* Logo */}
           <button
             onClick={() => handleNavClick('#hero')}
-            className="cursor-pointer text-lg font-bold text-white transition-colors hover:text-violet-400"
+            className="cursor-pointer text-lg font-bold text-white transition-colors hover:text-amber-400"
           >
             {SITE_NAME}
-            <span className="text-violet-400">.</span>
+            <span className="text-amber-400">.</span>
           </button>
 
           {/* Desktop nav */}
@@ -57,12 +57,12 @@ export function Header() {
                   aria-current={isActive ? 'page' : undefined}
                   className={cn(
                     'cursor-pointer rounded-lg px-4 py-2 text-sm font-medium transition-colors',
-                    isActive ? 'text-violet-400' : 'text-gray-400 hover:text-white'
+                    isActive ? 'text-amber-400' : 'text-gray-400 hover:text-white'
                   )}
                 >
                   {link.label}
                   {isActive && (
-                    <span className="mt-0.5 block h-0.5 w-full rounded-full bg-violet-500" />
+                    <span className="mt-0.5 block h-0.5 w-full rounded-full bg-amber-500" />
                   )}
                 </button>
               );

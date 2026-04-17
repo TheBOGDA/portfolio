@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   keywords: ['разработчик', 'портфолио', 'Next.js', 'React', 'TypeScript', 'веб-разработка'],
-  authors: [{ name: 'Богдан' }],
+  authors: [{ name: 'Руслан' }],
   openGraph: {
     type: 'website',
     title: SITE_TITLE,

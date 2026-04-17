@@ -53,7 +53,7 @@ export function ContactForm() {
   };
 
   const inputBase =
-    'w-full rounded-xl border bg-gray-50 px-4 py-3 text-sm text-gray-900 placeholder-gray-400 outline-none transition-colors focus:border-violet-500 focus:ring-1 focus:ring-violet-500 dark:bg-gray-800 dark:text-gray-100 dark:placeholder-gray-500';
+    'w-full rounded-xl border bg-gray-50 px-4 py-3 text-sm text-gray-900 placeholder-gray-400 outline-none transition-colors focus:border-amber-500 focus:ring-1 focus:ring-amber-500 dark:bg-gray-800 dark:text-gray-100 dark:placeholder-gray-500';
 
   const labelClass = 'mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-300';
 
